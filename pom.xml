@@ -3,14 +3,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mindskip</groupId>
-    <artifactId>xzs</artifactId>
-    <version>3.9.0</version>
+    <groupId>com.exam</groupId>
+    <artifactId>exam-system</artifactId>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>xzs</name>
-    <url>https://www.mindskip.net/xzs.html</url>
-    <description>学之思开源考试系统 - mysql版，支持多种题型：选择题、多选题、判断题、填空题、解答题以及数学公式，包含PC端、小程序端，扩展性强，部署方便(集成部署、前后端分离部署、docker部署)、界面设计友好、代码结构清晰</description>
+    <name>exam-system</name>
+    <url>https://github.com/SakurakoujiHakuya/exam-sys-back</url>
+    <description>在线考试系统 - 支持多种题型：选择题、多选题、判断题、填空题、解答题以及数学公式，包含PC端、小程序端，扩展性强，部署方便(集成部署、前后端分离部署、docker部署)、界面设计友好、代码结构清晰</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -33,29 +33,29 @@
 
 
     <issueManagement>
-        <system>Gitee Issue</system>
-        <url>https://gitee.com/mindskip/xzs-mysql/issues</url>
+        <system>GitHub Issue</system>
+        <url>https://github.com/SakurakoujiHakuya/exam-sys-back/issues</url>
     </issueManagement>
 
     <licenses>
         <license>
-            <name>GNU Affero General Public License v3.0</name>
-            <url>https://www.gnu.org/licenses/agpl-3.0.txt</url>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
         </license>
     </licenses>
 
     <developers>
         <developer>
-            <organization>武汉思维跳跃科技有限公司</organization>
-            <organizationUrl>https://www.mindskip.net</organizationUrl>
-            <email>mindskip@qq.com</email>
+            <name>SakurakoujiHakuya</name>
+            <email>2366158084@qq.com</email>
+            <url>https://github.com/SakurakoujiHakuya</url>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git@gitee.com:mindskip/xzs-mysql.git</connection>
-        <developerConnection>scm:git@gitee.com:mindskip/xzs-mysql.git</developerConnection>
-        <url>git@gitee.com:mindskip/xzs-mysql.git</url>
+        <connection>scm:git:https://github.com/SakurakoujiHakuya/exam-sys-back.git</connection>
+        <developerConnection>scm:git:https://github.com/SakurakoujiHakuya/exam-sys-back.git</developerConnection>
+        <url>https://github.com/SakurakoujiHakuya/exam-sys-back.git</url>
     </scm>
 
 
