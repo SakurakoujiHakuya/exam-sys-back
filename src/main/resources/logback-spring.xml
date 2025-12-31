@@ -36,6 +36,20 @@
             <appender-ref ref="CONSOLE"/>
             <appender-ref ref="FILE"/>
         </logger>
+        <!-- Flyway logging -->
+        <logger name="org.flywaydb" level="DEBUG" additivity="false">
+            <appender-ref ref="CONSOLE"/>
+            <appender-ref ref="FILE"/>
+        </logger>
+        <!-- SQL logging -->
+        <logger name="com.zaxxer.hikari" level="INFO" additivity="false">
+            <appender-ref ref="CONSOLE"/>
+            <appender-ref ref="FILE"/>
+        </logger>
+        <logger name="java.sql" level="DEBUG" additivity="false">
+            <appender-ref ref="CONSOLE"/>
+            <appender-ref ref="FILE"/>
+        </logger>
     </springProfile>
 
 
